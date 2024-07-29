@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery with banner</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="heading"> 
+        <h1>Galeria do Mateus</h1>
+    </div>
+    <div class="banner">
+        <img src="assets/img/Email Header - Class.jpeg" alt="banner img" id="bannerImage">
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="1" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="2" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="3" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="4" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="5" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="6" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="7" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+        <div class="gallery-item">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp" alt="8" 
+        onclick="openModal('https://media.geeksforgeeks.org/wp-content/uploads/20240311163321/Types-of-Wastes-(Banner).webp')">
+        </div>
+    </div>    
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage" alt="">
+    </div>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
